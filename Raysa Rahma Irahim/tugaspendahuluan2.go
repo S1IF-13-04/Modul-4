@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a, b int
+	fmt.Print("Masukkan dua bilangan: ")
+	fmt.Scan(&a, &b)
+
+	fmt.Println(a%b == 0)
+}
